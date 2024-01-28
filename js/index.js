@@ -1,13 +1,19 @@
 let productos = []; // Variable para almacenar la lista de productos
 
 // Obtener datos de productos desde un archivo JSON
-fetch("/productos.json")
-  .then((response) => response.json())
+fetch("./js/productos.json")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`Error de red: ${response.status}`);
+    }
+    return response.json();
+  })
   .then((data) => {
-    // Almacenar los datos de productos en la variable 'productos'
     productos = data;
-    // Cargar los productos en la interfaz
     cargarProductos(productos);
+  })
+  .catch((error) => {
+    console.error("Error durante la carga de productos:", error);
   });
 
 // Elementos del DOM
