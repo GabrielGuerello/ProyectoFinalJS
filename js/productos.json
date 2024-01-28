@@ -1,0 +1,132 @@
+[
+    {
+        "id": "Anillo-01",
+        "titulo": "Anillo Pendientes",
+        "imagen": "./assets/anillos/ring1.jpg",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "Anillos"
+        },
+        "precio": 24.999
+    },
+    {
+        "id": "Anillo-02",
+        "titulo": "Anillo Amulet",
+        "imagen": "./assets/anillos/ring2.jpg",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "Anillos"
+        },
+        "precio": 9.999
+    },
+    {
+        "id": "Anillo-03",
+        "titulo": "Anillo Esquirla",
+        "imagen": "./assets/anillos/ring4.jpg",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "Anillos"
+        },
+        "precio": 21.999
+    },
+    {
+        "id": "Anillo-04",
+        "titulo": "Anillo Lazado",
+        "imagen": "./assets/anillos/ring5.jpg",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "Anillos"
+        },
+        "precio": 19.999
+    },
+    {
+        "id": "Collar-01",
+        "titulo": "Collar Hueso",
+        "imagen": "./assets/collares/collar.jpg",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "Collares"
+        },
+        "precio": 3.499
+    },
+    {
+        "id": "Collar-03",
+        "titulo": "Collar Corazón",
+        "imagen": "./assets/collares/collar2.jpg",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "Collares"
+        },
+        "precio": 5.999
+    },
+    {
+        "id": "Collar-04",
+        "titulo": "Collar Slytherin",
+        "imagen": "./assets/collares/collar3.jpg",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "Collares"
+        },
+        "precio": 14.999
+    },
+    {
+        "id": "Collar-05",
+        "titulo": "Collar Espinas",
+        "imagen": "./assets/collares/collar4.jpg",
+        "categoria": {
+            "nombre": "Collares",
+            "id": "Collares"
+        },
+        "precio": 6.499
+    },
+    {
+        "id": "Reloj-01",
+        "titulo": "Reloj Ferrari",
+        "imagen": "./assets/relojes/reloj.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "Relojes"
+        },
+        "precio": 27.899
+    },
+    {
+        "id": "Reloj-02",
+        "titulo": "Reloj Negro Mate",
+        "imagen": "./assets/relojes/reloj1.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "Relojes"
+        },
+        "precio": 16.499
+    },
+    {
+        "id": "Reloj-03",
+        "titulo": "Reloj Casio Ult. Edition",
+        "imagen": "./assets/relojes/reloj2.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "Relojes"
+        },
+        "precio": 34.999
+    },
+    {
+        "id": "Reloj-04",
+        "titulo": "Reloj Bahun",
+        "imagen": "./assets/relojes/reloj3.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "Relojes"
+        },
+        "precio": 12.599
+    },
+    {
+        "id": "Reloj 5",
+        "titulo": "Reloj Águila",
+        "imagen": "./assets/relojes/reloj4.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "Relojes"
+        },
+        "precio": 25.299
+    }
+]
