@@ -1,7 +1,7 @@
 let productos = []; // Variable para almacenar la lista de productos
 
 // Obtener datos de productos desde un archivo JSON
-fetch("/js/productos.json")
+fetch("/productos.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error(`Error de red: ${response.status}`);
