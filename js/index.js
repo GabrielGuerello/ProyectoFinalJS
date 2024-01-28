@@ -1,7 +1,7 @@
 let productos = []; // Variable para almacenar la lista de productos
 
 // Obtener datos de productos desde un archivo JSON
-fetch("./js/productos.json")
+fetch("/productos.json")
   .then((response) => response.json())
   .then((data) => {
     // Almacenar los datos de productos en la variable 'productos'
