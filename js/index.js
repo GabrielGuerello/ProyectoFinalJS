@@ -1,5 +1,4 @@
-// Variable para almacenar la lista de productos
-let productos = [];
+let productos = []; // Variable para almacenar la lista de productos
 
 // Obtener datos de productos desde un archivo JSON
 fetch("./js/productos.json")
